@@ -109,7 +109,7 @@ USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "1 days" +"%Y-%m-%d")
 mkdir /root/rmbl
 cd /root/rmbl
-wget https://raw.githubusercontent.com/kotajakarta/script/main/ip >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Sultonyusuf189/scriptvps/main/ip >/dev/null 2>&1
 echo "### $author $hhari $MYIP @trial" >> ipmini
 sleep 1
 rm -rf .git
@@ -158,7 +158,7 @@ USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "30 days" +"%Y-%m-%d")
 mkdir /root/rmbl
 cd /root/rmbl
-wget https://raw.githubusercontent.com/kotajakarta/script/main/ip >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Sultonyusuf189/scriptvps/main/ip >/dev/null 2>&1
 
 echo "### $author $hhari $MYIP @abecasdee" >> ipmini
 
@@ -189,7 +189,7 @@ USERGIT=$(cat /etc/github/username)
 hhari2=$(date -d "999 days" +"%Y-%m-%d")
 mkdir /root/rmbl
 cd /root/rmbl
-wget https://raw.githubusercontent.com/kotajakarta/script/main/ip >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Sultonyusuf189/scriptvps/main/ip >/dev/null 2>&1
 
 sed -i "/# VIP/a ### ${author2} ${hhari2} ${MYIP2} ON 999 VIP" /root/rmbl/ipmini
 
@@ -220,7 +220,7 @@ USERGIT=$(cat /etc/github/username)
 hhari3=$(date -d "999 days" +"%Y-%m-%d")
 mkdir /root/rmbl
 cd /root/rmbl
-wget https://raw.githubusercontent.com/kotajakarta/script/main/ip >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Sultonyusuf189/scriptvps/main/ip >/dev/null 2>&1
 
 sed -i "/# RESELLER/a ### ${author3} ${hhari3} ${MYIP3} ON 999" /root/rmbl/ipmini
 
@@ -250,7 +250,7 @@ USERGIT=$(cat /etc/github/username)
 hhari=$(date -d "$KEY2 days" +"%Y-%m-%d")
 mkdir /root/rmbl
 cd /root/rmbl
-wget https://raw.githubusercontent.com/kotajakarta/script/main/ip >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Sultonyusuf189/scriptvps/main/ip >/dev/null 2>&1
 if [ "$ADMIN" = "ON" ]; then
 sed -i "/# RESELLER/a ### ${author} ${hhari} ${MYIP} ${ADMIN} ${TOTALIP}" /root/rmbl/ipmini
 else
